@@ -1,0 +1,18 @@
+body {
+    background: url(2223-12AV-DEMO-PROJECT\My_Little_Pony_Theme_Song.png) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.accordion {
+    width: 60%;
+    background-color: #fff;
+    padding: 10%;
+    border-radius: 30px;
+}
+
+.accordion .accordion-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
