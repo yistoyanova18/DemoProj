@@ -8,7 +8,7 @@ body {
 .accordion {
     width: 50%;
     background-color: #fff;
-    padding: 5%;
+    padding: 15%;
     border-radius: 30px;
 
 }
@@ -39,6 +39,22 @@ body {
     font-size: 22px;
     line-height: 1.5;
     width: 100%;
+    height: 0px;
     overflow: hidden;
-    transition: .5;
+    transition: .5s;
+}
+
+.accordion .content-container.active .answer {
+    height: 150px;
+}
+
+.accordion .content-container.active .question {
+    font-size: 18px;
+    transition: .5s;
+}
+
+.accordion .content-container.active .question::after {
+    content: '-';
+    font-size: 30px;
+    transition: .5s;
 }
