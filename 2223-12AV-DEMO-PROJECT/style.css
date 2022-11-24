@@ -1,8 +1,5 @@
 body {
-    background: url(2223-12AV-DEMO-PROJECT\My_Little_Pony_Theme_Song.png) no-repeat center center/cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+    background-color: bisque;
 }
 
 .accordion {
